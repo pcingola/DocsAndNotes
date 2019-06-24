@@ -13,17 +13,17 @@ To watch:
 
 The Lymphatic system’s has a major role fighting infections.
 
-Lymph: Fluid 
-Lymph nodes (~700 to 800): Checkpoints, monitor and clears lymph as it filters through
+- Lymph: Fluid 
+- Lymph nodes (~700 to 800): Checkpoints, monitor and clears lymph as it filters through
 They clean roughly 3 liters of blood per day (of the total 6L in the blood)
 Enlarged Lymph nodes usually mean infection
-Lymphatic organs:
-Spleen: Provides nurturing for Lymphocytes
-Thymus: Provides nurturing for Lymphocytes
-Adenoids:
-Tonsils (Amigdalas)
-Lymphatic capillaries: Converge to Lymphatic Ducts
-Lymphatic Ducts
+- Lymphatic organs:
+	- Spleen: Provides nurturing for Lymphocytes
+	- Thymus: Provides nurturing for Lymphocytes
+	- Adenoids:
+	- Tonsils (Amigdalas)
+- Lymphatic capillaries: Converge to Lymphatic Ducts
+- Lymphatic Ducts
 
 ## Immune system
 
