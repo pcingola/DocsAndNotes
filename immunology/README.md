@@ -28,39 +28,39 @@ Enlarged Lymph nodes usually mean infection
 ## Immune system
 
 Multiple components
-Innate immune system
-Adaptive immune system
-Cellular immune response
+- Innate immune system
+- Adaptive immune system
+- Cellular immune response
 
 Pathogen: Something bad that wants to invade your body: bacteria, virus, fungus, etc.
 
 ### 1. Innate immune system
 
 Innate (a.k.a. non-specific) immune system
-External barricades:
-Skin
-Defensins (host defense peptides): They consist of 18-45 amino acids including six (in vertebrates) to eight conserved cysteine residues. Cells of the immune system contain these peptides to assist in killing phagocytosed bacteria
-Mucous membranes
-Internal defences
-Antimicrobial proteins
-Attack cells
-Fever: Increase temper
-Inflammation: An internal “fire alarm”
-Histamine triggers vasodilation (redness, increased temperature, swelling, attracts phagocytes).
-Anti-Histamines: You take them when there is an “Allergic reaction”, these suppress Histamines if it’s triggering an unwanted immune reaction.
-Cell defenses
-Leukocytes: White blood cells. They can access any part of the body, except the central nervous system and the spinal cord.
-Phagocytes (a type of Leukocyte):
-Neutrophils: The most abundant white cells. They die after ingesting a pathogen (pus is made of these cells).
-Macrophages: Derived from Monocyte white blood cells that moved out of the blood stream to occupy tissue. Can engulf and destroy many pathogens (as opposed to Neutrophils, that can only do it once)
-Fixed: Attache to fibers in specific organs
-Free: Patrol tissue
-Natural Killer Cells (NKC, a subtype of T-Lymphocytes): 
-Patrol blood and Lymphs looking for abnormal cells
-Can kill human cells, if they are infected or become cancerous
-Healthy / Normal cells express MHC-1 (Major Histocompatibility Complex)
-If a cell is infected, it does not express MHC-1
-If NKC detects an infected cell, it pokes holes with enzymes that trigger apoptosis (it does not phagocyte the cell).
+- External barricades:
+	- Skin
+	- Defensins (host defense peptides): They consist of 18-45 amino acids including six (in vertebrates) to eight conserved cysteine residues. Cells of the immune system contain these peptides to assist in killing phagocytosed bacteria
+	- Mucous membranes
+- Internal defences
+		- Antimicrobial proteins
+		- Attack cells
+		- Fever: Increase temper
+		- Inflammation: An internal “fire alarm”
+			- Histamine triggers vasodilation (redness, increased temperature, swelling, attracts phagocytes).
+			- Anti-Histamines: You take them when there is an “Allergic reaction”, these suppress Histamines if it’s triggering an unwanted immune reaction.
+- Cell defenses
+	- Leukocytes: White blood cells. They can access any part of the body, except the central nervous system and the spinal cord.
+	- Phagocytes (a type of Leukocyte):
+		- Neutrophils: The most abundant white cells. They die after ingesting a pathogen (pus is made of these cells).
+		- Macrophages: Derived from Monocyte white blood cells that moved out of the blood stream to occupy tissue. Can engulf and destroy many pathogens (as opposed to Neutrophils, that can only do it once)
+			- Fixed: Attache to fibers in specific organs
+			- Free: Patrol tissue
+	- Natural Killer Cells (NKC, a subtype of T-Lymphocytes): 
+		- Patrol blood and Lymphs looking for abnormal cells
+		- Can kill human cells, if they are infected or become cancerous
+		- Healthy / Normal cells express MHC-1 (Major Histocompatibility Complex)
+		- If a cell is infected, it does not express MHC-1
+		- If NKC detects an infected cell, it pokes holes with enzymes that trigger apoptosis (it does not phagocyte the cell).
 
 ### 2. Adaptive immune system
 
