@@ -25,16 +25,14 @@ Enlarged Lymph nodes usually mean infection
 - Lymphatic capillaries: Converge to Lymphatic Ducts
 - Lymphatic Ducts
 
-## Immune system
+# Immune system
 
 Multiple components
-- Innate immune system
-- Adaptive immune system
-- Cellular immune response
+1. Innate immune system
+1. Adaptive immune system
+1. Cellular immune response
 
-Pathogen: Something bad that wants to invade your body: bacteria, virus, fungus, etc.
-
-### 1. Innate immune system
+# 1. Innate immune system
 
 Innate (a.k.a. non-specific) immune system
 - External barricades:
@@ -62,65 +60,63 @@ Innate (a.k.a. non-specific) immune system
 		- If a cell is infected, it does not express MHC-1
 		- If NKC detects an infected cell, it pokes holes with enzymes that trigger apoptosis (it does not phagocyte the cell).
 
-### 2. Adaptive immune system
+# 2. Adaptive immune system
 
 Adaptive (a.k.a. specific or acquired) immune system: “Learns and keeps a memory of the infections”
 It has to know the pathogen and recognize it before attacking.
 We are not born with a working immune.
 Two cooperating systems
-Humoral immunity / humoral response: The pathogens are in the fluids
-Cellular defences / cell infected response / cell immune response: The pathogens invaded cells
+- Humoral immunity / humoral response: The pathogens are in the fluids
+- Cellular defences / cell infected response / cell immune response: The pathogens invaded cells
 
 All animals have innate immune system, even sponges, but only vertebrates have acquired immune system.
 
-Nomenclature:
+# Antibodies
 
-Antigen
-Antigens comes from “Antibody Generator”. An invader bacteria, virus, fungus, toxin or a deceased cell. Most of the time “antigens” are large molecules not found in the body.
-
-Antibodies (a.k.a. Immunoglobulins / Ig, plasma-soluble B-cell receptors)
+Antiboduies, a.k.a. Immunoglobulins / Ig, plasma-soluble B-cell receptors.
 
 References: https://www.youtube.com/watch?v=H3LXXq05eko
 
 Antibodies serve as a “tag” to alert Phagocytes to eat the Antigen they attach to.
 Blood protein produced in response to and counteracting a specific antigen. Antibodies combine chemically with substances which the body recognizes as alien, such as bacteria, viruses, and foreign substances in the blood.
 
-Antibodies
-Are “the reason why vaccination works”.
-Made by special white blood cells
-They patrol the “Humoral system” (blood and lymph)
+- Are “the reason why vaccination works”.
+- Made by special white blood cells
+- They patrol the “Humoral system” (blood and lymph)
 
 How they defend from invasion:
-They can physically block the binding sites on viruses or bacteria, so they cannot hook-up to tissues
-They can bind to multiple antigens at the same time, producing Agglutination, meaning that the antigens cannot move easily
-They “call” phagocytes and special lymphocytes to eat the patogen
+- They can physically block the binding sites on viruses or bacteria, so they cannot hook-up to tissues
+- They can bind to multiple antigens at the same time, producing Agglutination, meaning that the antigens cannot move easily
+- They “call” phagocytes and special lymphocytes to eat the patogen
 
 Antibodies consist of a Y-shaped structure formed by 4 polypeptide subunits bound together by bisulfate bonds (covalent bonds): 2 heavy chains and 2 light chains. The heavy chains form the “constant” regions, that binds to the cell surface. The “variable” regions holds different sequences of amino acids that can bind to specific antigens.
 
 The variable regions contain “antigen binding sites”. The region of the antigen that binds to the antigen-binding site is called “antigenic-determinant” or “epitope” .
 
 There are 5 types of Antibodies (determined by the “constant” region of the antibody):
-IgG: The most common type (75% of the antibodies are IgG). In blood and lymph.
-IgM: Found on B-lymphocytes’ membranes
-IgE: Involved in “allergic reactions”
-IgD: Found on B-lymphocytes, help differentiate B-cells into “Plasma Cells”
-IgA: Primary found in digestive and respiratory tracts.
+1. IgG: The most common type (75% of the antibodies are IgG). In blood and lymph.
+1. IgM: Found on B-lymphocytes’ membranes
+1. IgE: Involved in “allergic reactions”
+1. IgD: Found on B-lymphocytes, help differentiate B-cells into “Plasma Cells”
+1. IgA: Primary found in digestive and respiratory tracts.
 
-B-Lymphocyte
+# B-Lymphocyte
+
 Originates and matures in the bone marrow, where they develop:
-Immunocompetence: how to recognize a particular antigen.
-Cell tolerance: How not to attack our own cells
+- Immunocompetence: how to recognize a particular antigen.
+- Cell tolerance: How not to attack our own cells
+
 Once matured, they display up to 10,000 membrane-bound antibodies on their surface. Each B-Lymphocyte has a unique set of antibodies. All B-Lymphocytes together can hold 2,000,000 different antibodies.
 If a B-Lymphocyte finds an antigen it has antibodies for, it “recognizes” it and binds to it. This “activates” the B-Cell, which starts reproducing like crazy and specialize in two categories:
-Effector cell / Plasma cells / Plasmacytes: Most become “Effector cells” (active fighters)
-Have large amounts of endoplasmic reticulum
-Can mass-produce the same antibodies for the particular invader (2,000 antibodies per second for five days, until they die).
-Memory cells: A few become long term “Memory cells” that keep the antibody (genetic) code in case it’s seen again. If the antigen returns, the body has a prepared immune response (stronger and faster).
+1. Effector cell / Plasma cells / Plasmacytes: Most become “Effector cells” (active fighters)
+	1. Have large amounts of endoplasmic reticulum
+	1. Can mass-produce the same antibodies for the particular invader (2,000 antibodies per second for five days, until they die).
+1. Memory cells: A few become long term “Memory cells” that keep the antibody (genetic) code in case it’s seen again. If the antigen returns, the body has a prepared immune response (stronger and faster).
 
 B-cell receptors bind to and antigen (e.g. the antigen is either floating around in our blood or “presented” by a macrophage using an MHC-II), then the antigen is engulfed by the B-cell (cell-mediated endocytosis). Once inside the B-cell, lysosomes break down the antigen. A small portion of the antigen,  known as the “antigenic determinant” or “epitope”, is taken and place on MHC-II and exposed (“presented”) on the surface of the B-Cell.
 For any defense mechanism to start, the B-cell must interact with a Helper T-cell having a matching (complementary ) antibody as well as CD4 glycoprotein. The Helper T-cell releases Lymphokines which trigger cloning and differentiation in the B-cell. Some of the cloned B-cell differentiate into “Plasma cells”, which produce “plasma soluble B-Cell receptors” (i.e. antibodies).
 
-### 2.2 Cellular immune response
+# 2.2 Cellular immune response
 
 This defense system kicks in when the previous two systems have been breached and the pathogen is inside the cell.
 
@@ -204,7 +200,10 @@ In case of CD8 cells (Cytotoxic T-cells / Killer T-cell), it binds to MHC-I, thu
 
 
 
+# Nomenclature
 
+- Antigen: Antigens comes from “Antibody Generator”. An invader bacteria, virus, fungus, toxin or a deceased cell. Most of the time “antigens” are large molecules not found in the body.
 
+- Antibodies: a.k.a. Immunoglobulins / Ig, plasma-soluble B-cell receptors
 
-
+- Pathogen: Something bad that wants to invade your body: bacteria, virus, fungus, etc.
