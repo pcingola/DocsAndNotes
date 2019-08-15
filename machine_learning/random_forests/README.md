@@ -25,11 +25,13 @@ Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18
 - Profiling on Jupiter notebooks: `%time function()`, `%prun function()` runs into the profiler
 - Calculate the variance of the estimators (i.e. all trees) to have an estimate of the "confidence" the model has in the predicted value.
 - Feature importance: 
+	- Using linear regression for "feature importance" is usually not accurrate because of the number of assumptions you are implicitly making in the lnear model (e.g. no feature interactions). Random forests make fewer assumptions, thus usually more accurate.
 	- How to calculate: Create a predictor, take the variable to analyze and randomly shuffle the values in the trainig set, calculate how much the prediction is degraded (compare to the original unshuffled dataset). The higher the differece, the more important the variable is.
 	- You can use "feature importance" to remove unnecesary variables (when plotting the feature importance curve, remove variables after the curve flattens)
 	- You can also use to find "data leakage" (which might indicate problems with the raining dataset)
 	- Removing unnecesary variables, you might reduce feature co-linearity.
-	
+- Random forest usually don't overfit
+
 	
 
 Ref: [Fast.ai: Feature importance and Tree interpreter](http://course18.fast.ai/lessonsml1/lesson4.html)
