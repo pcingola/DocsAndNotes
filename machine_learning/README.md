@@ -17,6 +17,9 @@ These are in no particular order
 - Expand 'data/timestamp' into many columns (`year, month, day, day_of_weeK, is_holliday`, etc.)
 - Saving the data in `feather` format is udualy fast (the dataFrame is just dumped from memory to disk, so it's fast)
 - Dividing 80% training, 10% testing and 10% validation works usualy OK, but if you have millions of samples, you might only need 1% for test and validation (or even 0.1%)
+- Add a column for missing data: e.g. if your column is called `value`
+    - Create a new column `value_na` which is `{0, 1}` depending on whether the value is missing or not
+    - Fill missing values in `value` by setting them to the mean / median / default
 
 # Exploratory data analaysis
 
