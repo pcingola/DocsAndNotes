@@ -18,6 +18,7 @@ Ref: [Fast.ai: Random forest deep dive](http://course18.fast.ai/lessonsml1/lesso
 	- `n_estimators`: Suggested values are `{10, 50, 100}`. Increasing the number of trees in the RandomForest reached a plateau at some point. Usualy this is after 100 trees for small datasets
 	- `min_samples_leaf`: Suggested values are `{1, 3, 10, 100}`. By default RandomForest stops building the tree when every sample is a leaf node. Use `min_samples_leaf > 1` to stop earlier (you want generalization, going all the way down will overfit the tree).
 	- `max_features`: Suggested values are `{0.5, 'srqt', 'log2'}`. To create uncorrelated trees, you can randomly limit the number of parameters (i.e. columns in your data frame):e.g. `max_features=0.5` other good options are `'sqrt', 'log2'`
+	- `n_jobs=-1`: Parallelize into all the CPUs
 
 
 Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18.fast.ai/lessonsml1/lesson3.html)
@@ -31,6 +32,11 @@ Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18
 	
 	
 
+Ref: [Fast.ai: Feature importance and Tree interpreter](http://course18.fast.ai/lessonsml1/lesson4.html)
+- Depth of the tree is `log2(number_of_samples)`
+- Number of leaves in the tree is `number_of_samples` for a fully trained tree
+- OOB (Out Of Bag): Error calculated from "Out of bag" samples, allows you to not have  atest set.
+- 
 
 
 - Predict the test dataset: Create a dataset having the training set and the test set, add a columnt "is_test" and try to predict that column. If you can do a decent prediction, this means that the train and test datasets are like "time sequences" and have some sort of cutting point.
