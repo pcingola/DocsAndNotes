@@ -20,7 +20,12 @@ Ref: [Fast.ai: Random forest deep dive](http://course18.fast.ai/lessonsml1/lesso
 	- `max_features`: Suggested values are `{0.5, 'srqt', 'log2'}`. To create uncorrelated trees, you can randomly limit the number of parameters (i.e. columns in your data frame):e.g. `max_features=0.5` other good options are `'sqrt', 'log2'`
 
 
-Ref: [Fast.ai: ...](http://course18.fast.ai/)
+Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18.fast.ai/lessonsml1/lesson3.html)
+- Profiling on Jupiter notebooks: `%time function()`, `%prun function()` runs into the profiler
+
+
+
+
 - Calculate the variance of the estimators (i.e. all trees) to have an estimate of the "confidence" the model has in the predicted value.
 - Predict the test dataset: Create a dataset having the training set and the test set, add a columnt "is_test" and try to predict that column. If you can do a decent prediction, this means that the train and test datasets are like "time sequences" and have some sort of cutting point.
 	- You can run a feature importance analysis to find out what the "time" dependent variables are, and drop the variables from the input.
