@@ -32,6 +32,7 @@ These are in no particular order
 - Create a shallow RandomForest model having a single tree: it's a crappy model, but you can draw the tree to gain insight into the data.
 - For large datasets, there is no point on always using all the samples to train the model during the explaratory analysis: Just sub-sample your dataset
 - Perform a "feature impoirtance analysis" (see "Randome forest" for details).
+- Perform hierarchical clustering (use spearman's rank-order correlation `pearmanr`)
 
 # Ensemble models
 - Bagging: Create many models that are somewhat predictive, but have un-correlated errors. When you average all the models, you have `mean(prediction_i + error_i) = mean(prediction_i) + mean(error_i)`. The second term tends to zero (errors are uncorrelated with mean 0), so we have a much better predition.
