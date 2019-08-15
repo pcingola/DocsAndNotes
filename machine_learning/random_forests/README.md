@@ -31,6 +31,8 @@ Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18
 	- You can also use to find "data leakage" (which might indicate problems with the raining dataset)
 	- Removing unnecesary variables, you might reduce feature co-linearity.
 - Random forest usually don't overfit
+- Perform hierarchical clustering: Remove variables that are too similar (try one by one, checking that the model doesn't drop when removing the variables)
+
 
 	
 
