@@ -20,7 +20,7 @@ These are in no particular order
 
 # Exploratory data analaysis
 
-- Calculate ranking variuables having missing values
+- Calculate ranking variables having missing values
 - Create a shallow RandomForest model having a single tree: it's a crappy model, but you can draw the tree to gain insight into the data.
 - For large datasets, there is no point on always using all the samples to train the model during the explaratory analysis: Just sub-sample your dataset
 
