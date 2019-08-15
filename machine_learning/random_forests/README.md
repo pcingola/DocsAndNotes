@@ -20,3 +20,5 @@ Ref: [Fast.ai: Random forest deep dive](http://course18.fast.ai/lessonsml1/lesso
 	- `max_features`: Suggested values are `{0.5, 'srqt', 'log2'}`. To create uncorrelated trees, you can randomly limit the number of parameters (i.e. columns in your data frame):e.g. `max_features=0.5` other good options are `'sqrt', 'log2'`
 
 
+Ref: [Fast.ai: ...](http://course18.fast.ai/)
+- Calculate the variance of the estimators (i.e. all trees) to have an estimate of the "confidence" the model has in the predicted value.
