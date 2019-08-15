@@ -22,11 +22,17 @@ Ref: [Fast.ai: Random forest deep dive](http://course18.fast.ai/lessonsml1/lesso
 
 Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18.fast.ai/lessonsml1/lesson3.html)
 - Profiling on Jupiter notebooks: `%time function()`, `%prun function()` runs into the profiler
-
-
-
-
 - Calculate the variance of the estimators (i.e. all trees) to have an estimate of the "confidence" the model has in the predicted value.
+- Feature importance: 
+	- How to calculate: Create a predictor, take the variable to analyze and randomly shuffle the values in the trainig set, calculate how much the prediction is degraded (compare to the original unshuffled dataset). The higher the differece, the more important the variable is.
+	- You can use "feature importance" to remove unnecesary variables (when plotting the feature importance curve, remove variables after the curve flattens)
+	- You can also use to find "data leakage" (which might indicate problems with the raining dataset)
+	- Removing unnecesary variables, you might reduce feature co-linearity.
+	
+	
+
+
+
 - Predict the test dataset: Create a dataset having the training set and the test set, add a columnt "is_test" and try to predict that column. If you can do a decent prediction, this means that the train and test datasets are like "time sequences" and have some sort of cutting point.
 	- You can run a feature importance analysis to find out what the "time" dependent variables are, and drop the variables from the input.
 	
