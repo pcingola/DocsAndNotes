@@ -30,17 +30,16 @@ Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18
 	- You can use "feature importance" to remove unnecesary variables (when plotting the feature importance curve, remove variables after the curve flattens)
 	- You can also use to find "data leakage" (which might indicate problems with the raining dataset)
 	- Removing unnecesary variables, you might reduce feature co-linearity.
-- Random forest usually don't overfit
-- Perform hierarchical clustering: Remove variables that are too similar (try one by one, checking that the model doesn't drop when removing the variables)
-
-
-	
 
 Ref: [Fast.ai: Feature importance and Tree interpreter](http://course18.fast.ai/lessonsml1/lesson4.html)
 - Depth of the tree is `log2(number_of_samples)`
 - Number of leaves in the tree is `number_of_samples` for a fully trained tree
 - OOB (Out Of Bag): Error calculated from "Out of bag" samples, allows you to not have  atest set.
-- 
+- Random forest usually don't overfit
+- Perform hierarchical clustering: Remove variables that are too similar (try one by one, checking that the model doesn't drop when removing the variables)
+- Partial dependence plots: Perform a plot of "all things being equal, except the choosen variable". For a choosen variable perform a prediction by replacing all values in the dataset by a fixed value, once the predictions are performed, we get an average of "all things where equal, except the choosen variable", then we change the value and plot the averages vs the replaced value. Good method for plotting a correlation whithout the colinear effects.
+
+
 
 
 - Predict the test dataset: Create a dataset having the training set and the test set, add a columnt "is_test" and try to predict that column. If you can do a decent prediction, this means that the train and test datasets are like "time sequences" and have some sort of cutting point.
