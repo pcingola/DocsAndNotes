@@ -20,6 +20,8 @@ These are in no particular order
 - Add a column for missing data: e.g. if your column is called `value`
     - Create a new column `value_na` which is `{0, 1}` depending on whether the value is missing or not
     - Fill missing values in `value` by setting them to the mean / median / default
+- Do basic statistics: mean, stdev, max, min, number of missing values, distribution, etc.
+- If you are interested on money amounts, it might be better to use the `log`
 
 # Exploratory data analaysis
 
