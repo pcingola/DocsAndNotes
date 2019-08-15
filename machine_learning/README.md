@@ -10,6 +10,7 @@ These are in no particular order
 - Course of dimentionality is not a real concern in practice for many ML problems
 - The "No free lunch" theorem doesn't usually apply in practice because practical ML problems are not totally random data (i.e. the data lies within a sub-manifold)
 - `r^2 = 1-SS_reg / SS_tot`, the second term is the ratio between `SS_reg` (sum of squared errors of our model) and `SS_tot` (sum of squared error of a very naive estimator, that is the just the mean). This is a number below 1.0, it can be negative infinity (not between 0 and 1 as many people think)
+- Build 5 basic models (one better than the other), test them on the test and validation set. The scores should be in the same direcction, otherwise the test/validation models are biased.
 
 # Data pre-processing
 
