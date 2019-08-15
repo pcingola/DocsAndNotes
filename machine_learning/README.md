@@ -34,5 +34,6 @@ These are in no particular order
 # Ensemble models
 - Bagging: Create many models that are somewhat predictive, but have un-correlated errors. When you average all the models, you have `mean(prediction_i + error_i) = mean(prediction_i) + mean(error_i)`. The second term tends to zero (errors are uncorrelated with mean 0), so we have a much better predition.
 - Bag if little bootstraps: It is more important to be uncorrelated than predictive (e.g. Extremelly randomized trees)
+- Calculate the variance of the estimators to have an estimate of the "confidence" the ensembl model has in the predicted value.
 
 
