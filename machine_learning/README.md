@@ -24,6 +24,7 @@ These are in no particular order
     - Fill missing values in `value` by setting them to the mean / median / default
 - Do basic statistics: mean, stdev, max, min, number of missing values, distribution, etc.
 - If you are interested on money amounts, it might be better to use the `log`
+- Perform a "one hot encoding" for categorical input variables, most machine learning models need this (an exception can be categories with many options).
 
 # Exploratory data analaysis
 
