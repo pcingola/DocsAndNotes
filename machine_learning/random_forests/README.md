@@ -64,6 +64,8 @@ Ref: [Fast.ai: ML 6, Data products and live coding](http://course18.fast.ai/less
 	- You can run tree interpreter for every input sample in the training set, add the partial contributions of each variable and this would give another measure of feature importance
 - Feature importance for feature interactions: 
 	- Take a look at two steps in the tree and measure "interactions" of two varaibles; or three steps for interactions of three variables; etc.
+- Extrapolation: RandomTrees cannot extrapolate, they can only predict "averages" of similar things. If you pass data outside the variable's scope, the prediction is just the closest one from the training set. E.g. Train with a linear input `y = x` for `x =[0, 1]`, when trying to predict for `x =[1, 2]` all results will be just the same as the one for `x = 1` (because that's the closest value it was trained on.
+
 	
 	
 	
