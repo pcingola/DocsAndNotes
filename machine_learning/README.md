@@ -14,6 +14,9 @@ These are in no particular order
 - For exploring / finding models you probably don't need millions of datapoints. Subsample to a point when you can get the models to train within a few minutes/seconds so you can iterate faster.
 - In ML we care about generalization (if the model doesn't generalize, we are doing a bad job at predicting).
 - From the moment you build the model to the time it is used in production, the worl has changed (sometimes significantly) and your model will not be as accurate.
+- Unbalanced dataset: Oversampling the least common class until it is the same size as the most common class, is almost always the best thing to do.
+- N-shot learning: Categorize things we've seen 'N' times. One-shot learning (things seen only once), zero-shot learning (never seen in the dataset)
+
 
 # Data pre-processing
 
