@@ -1,12 +1,14 @@
 
 # Random Forests
 
-Ref: [Fast.ai: Introduction to random forests](http://course18.fast.ai/lessonsml1/lesson1.html)
+The followin are base on [Introduction to Machine Learning for Coders](http://course18.fast.ai/ml)
+
+Ref: [Fast.ai: ML 1, Introduction to random forests](http://course18.fast.ai/lessonsml1/lesson1.html)
 - See Jupiter notebook `ml/randomForest/Bulldozers.ipynb`
 - Random forest are easy, generic and require no prior assumptions
 - To use a random forest you need to convert categorical data to numeric.
 
-Ref: [Fast.ai: Random forest deep dive](http://course18.fast.ai/lessonsml1/lesson2.html)
+Ref: [Fast.ai: ML 2, Random forest deep dive](http://course18.fast.ai/lessonsml1/lesson2.html)
 - Create a shallow RandomForest model having a single tree: it's a crappy model, but you can draw the tree to gain insight into the data.
 - Building a tree:
   - How to build a RandomForest: Just build a bunch of Trees
@@ -21,7 +23,7 @@ Ref: [Fast.ai: Random forest deep dive](http://course18.fast.ai/lessonsml1/lesso
 	- `n_jobs=-1`: Parallelize into all the CPUs
 
 
-Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18.fast.ai/lessonsml1/lesson3.html)
+Ref: [Fast.ai: ML 3, Performance, Validation and model interpretation](http://course18.fast.ai/lessonsml1/lesson3.html)
 - Profiling on Jupiter notebooks: `%time function()`, `%prun function()` runs into the profiler
 - Calculate the variance of the estimators (i.e. all trees) to have an estimate of the "confidence" the model has in the predicted value.
 - Feature importance: 
@@ -31,7 +33,7 @@ Ref: [Fast.ai: Performance, Validation and model interpretation](http://course18
 	- You can also use to find "data leakage" (which might indicate problems with the raining dataset)
 	- Removing unnecesary variables, you might reduce feature co-linearity.
 
-Ref: [Fast.ai: Feature importance and Tree interpreter](http://course18.fast.ai/lessonsml1/lesson4.html)
+Ref: [Fast.ai: ML 4, Feature importance and Tree interpreter](http://course18.fast.ai/lessonsml1/lesson4.html)
 - Depth of the tree is `log2(number_of_samples)`
 - Number of leaves in the tree is `number_of_samples` for a fully trained tree
 - OOB (Out Of Bag): Error calculated from "Out of bag" samples, allows you to not have  atest set.
