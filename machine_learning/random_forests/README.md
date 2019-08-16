@@ -41,7 +41,8 @@ Ref: [Fast.ai: ML 4, Feature importance and Tree interpreter](http://course18.fa
 - OOB (Out Of Bag): Error calculated from "Out of bag" samples, allows you to not have  atest set.
 - Random forest usually don't overfit
 - Perform hierarchical clustering: Remove variables that are too similar (try one by one, checking that the model doesn't drop when removing the variables)
-- Partial dependence plots: Perform a plot of "all things being equal, except the choosen variable". For a choosen variable perform a prediction by replacing all values in the dataset by a fixed value, once the predictions are performed, we get an average of "all things where equal, except the choosen variable", then we change the value and plot the averages vs the replaced value. Good method for plotting a correlation whithout the colinear effects.
+- Partial dependence: All things being equal, what's the (partial) dependency between two variables (according to our model)
+	- Partial dependence plots: Perform a plot of "all things being equal, except the choosen variable". For a choosen variable perform a prediction by replacing all values in the dataset by a fixed value, once the predictions are performed, we get an average of "all things where equal, except the choosen variable", then we change the value and plot the averages vs the replaced value. Good method for plotting a correlation whithout the colinear effects.
 	- Use Python library `pdp`
 	- `pdp.interact`: To anlyze how variable interact (using Partial Dependence Plots)
 - Tree interpreter: Analyze the contribution of each variable change
