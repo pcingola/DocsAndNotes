@@ -13,6 +13,7 @@ These are in no particular order
 - Build 5 basic models (one better than the other), test them on the test and validation set. The scores should be in the same direcction, otherwise the test/validation models are biased.
 - For exploring / finding models you probably don't need millions of datapoints. Subsample to a point when you can get the models to train within a few minutes/seconds so you can iterate faster.
 - In ML we care about generalization (if the model doesn't generalize, we are doing a bad job at predicting).
+- From the moment you build the model to the time it is used in production, the worl has changed (sometimes significantly) and your model will not be as accurate.
 
 # Data pre-processing
 
