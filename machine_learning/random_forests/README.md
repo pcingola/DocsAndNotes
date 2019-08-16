@@ -26,6 +26,8 @@ Ref: [Fast.ai: ML 2, Random forest deep dive](http://course18.fast.ai/lessonsml1
 Ref: [Fast.ai: ML 3, Performance, Validation and model interpretation](http://course18.fast.ai/lessonsml1/lesson3.html)
 - Profiling on Jupiter notebooks: `%time function()`, `%prun function()` runs into the profiler
 - Calculate the variance of the estimators (i.e. all trees) to have an estimate of the "confidence" the model has in the predicted value.
+	- Calculate the stdev of a single sample to understand how certain the model is about a prediction
+	- Calculate the stdev of a group of samples (e.g. all samples having a one categorical value). This is used to find "groups" with low confidence (e.g. if a group has small number of samples)
 - Feature importance: 
 	- Using linear regression for "feature importance" is usually not accurrate because of the number of assumptions you are implicitly making in the lnear model (e.g. no feature interactions). Random forests make fewer assumptions, thus usually more accurate.
 	- How to calculate: Create a predictor, take the variable to analyze and randomly shuffle the values in the trainig set, calculate how much the prediction is degraded (compare to the original unshuffled dataset). The higher the differece, the more important the variable is.
