@@ -51,5 +51,6 @@ Ref: [Fast.ai: ML 5, Extrapolation and RF from scratch](http://course18.fast.ai/
 - Cross validation is usefull if you have few data points, but mostly useless when you have a lot of data
 - Tree interpreter + Waterflow plots are used to show how a Random Forest gets a result (justify a result and analyze the data)
 - Predict the test dataset: Create a dataset having the training set and the test set, add a columnt "is_test" and try to predict that column. If you can do a decent prediction, this means that the train and test datasets are like "time sequences" and have some sort of cutting point.
-	- You can run a feature importance analysis to find out what the "time" dependent variables are, and drop the variables from the input.
+	- What's the difference between validation set and training set? This indicates predictors with strong temporal componene (if the train/validation were split at a point in time). These features ar irrelevant for predition since they will not apply when the model is in production.
+	- You run a feature importance analysis to find out what the "time" dependent variables are, and drop the variables from the input.
 	
