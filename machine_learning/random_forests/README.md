@@ -45,6 +45,10 @@ Ref: [Fast.ai: ML 4, Feature importance and Tree interpreter](http://course18.fa
 - Tree interpreter: Analyze the contribution of each variable change
 - Show a graphical model of a single tree
 
+Ref: [Fast.ai: ML 5, Extrapolation and RF from scratch](http://course18.fast.ai/lessonsml1/lesson5.html)
+- OOB can replace a validation set (with the score a bit lower than in real validation since the number of trees used is lower)
+- Build 5 basic models (one better than the other), test them on the test and validation set. The scores should be in the same direcction, otherwise the test/validation models are biased.
+- Cross validation is usefull if you have few data points, but mostly useless when you have a lot of data
 
 
 
