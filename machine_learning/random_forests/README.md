@@ -58,3 +58,12 @@ Ref: [Fast.ai: ML 5, Extrapolation and RF from scratch](http://course18.fast.ai/
 	- What's the difference between validation set and training set? This indicates predictors with strong temporal componene (if the train/validation were split at a point in time). These features ar irrelevant for predition since they will not apply when the model is in production.
 	- You run a feature importance analysis to find out what the "time" dependent variables are, and drop the variables from the input.
 	
+
+Ref: [Fast.ai: ML 6, Data products and live coding](http://course18.fast.ai/lessonsml1/lesson6.html)
+- Feature importance using tree interpreter: 
+	- You can run tree interpreter for every input sample in the training set, add the partial contributions of each variable and this would give another measure of feature importance
+- Feature importance for feature interactions: 
+	- Take a look at two steps in the tree and measure "interactions" of two varaibles; or three steps for interactions of three variables; etc.
+	
+	
+	
