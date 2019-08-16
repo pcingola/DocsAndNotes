@@ -46,6 +46,7 @@ Ref: [Fast.ai: ML 4, Feature importance and Tree interpreter](http://course18.fa
 	- Use Python library `pdp`
 	- `pdp.interact`: To anlyze how variable interact (using Partial Dependence Plots)
 - Tree interpreter: Analyze the contribution of each variable change
+	- This is an analysis of feature importance for a particular sample (given an input, justifies the output of the tree)
 - Show a graphical model of a single tree
 
 Ref: [Fast.ai: ML 5, Extrapolation and RF from scratch](http://course18.fast.ai/lessonsml1/lesson5.html)
